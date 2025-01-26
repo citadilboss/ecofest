@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+body{
+    background-color: rgb(182, 243, 102); color: white;
+}
+.navbar{
+    background-color:#64ac06;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255); margin-top: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 40px;
+    padding: 10px 40px;
+    flex-wrap: wrap;
+    flex-shrink: initial;
+}
+
+
+.logo a{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+}
+button{
+    width: 300px;
+    height: 40px;
+    background-color: #76b820; border: none; margin: 5px;
+}
+ul li{
+    display: inline;
+    
+    
+}
+li a{
+list-style: none;
+color:white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 40px;
+
+}
+.home-wrapper{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #64ac06;;
+}
+.home-content{
+    width: ;
+    text-align: center;
+    margin: 15px 0;
+}
+.home-content p{
+    font-size: 1.5rem;
+}
+.home-content button{
+    width: 400px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+
+}
+.home-content button a{
+    color:white;
+}
+.shared{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(217, 255, 0, 0.501);
+    margin: 10px 50px;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    
+}
+.shared h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    margin: 50px;
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    color: white;
+    
+}
+.shared p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 50px 0;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    height: 200px;
+    max-width: 500px;
+    flex-shrink: 4;
+}
+.shared .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 50px;
+    background-color: red;
+    height: 400px;
+    width: auto;
+    color: white;
+
+}
+.shared .header h1{
+    height: 100px;
+    width: 300px;
+    font-size: 2rem;
+}
+.shared .img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 50px;
+    background-color: red;
+    height: 200px;
+    width: auto;
+    color: white;
+
+}
+
+.shared1{
+    margin: 100px;
+    background-color: blue;
+    padding: 30px;
+}
+.shared1 p{
+
+}
